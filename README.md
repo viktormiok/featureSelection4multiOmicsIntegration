@@ -1,2 +1,2 @@
 # featureSelection4multiOmicsIntegration
-Feature selection for multi-omics data integration
+Feature Selection for Multi-Omics Data Integration
