@@ -1,5 +1,5 @@
 # featureSelection4multiOmicsIntegration
-Feature Selection for Multi-Omics Data Integration
+**Feature Selection for Multi-Omics Data Integration**, repository presents a statistical workflow for feature selection in multi-omics datasets. The workflow is demonstrated using adrenocortical carcinoma (ACC) genomics data, integrating eight different methods from three categories: **supervised methods, factor analysis, and network models**. The aim is to identify biologically relevant features across multiple omics layers, facilitating a holistic understanding of complex biological processes.
 
 # Abstract 
 Multi-omics data are collections of data from various categories of biomolecules belonging to a single sample or individual, collected using different techniques for each type
@@ -11,5 +11,14 @@ adrenocortical carcinoma (ACC) genomics data, using eight different methods from
 categories: Supervised methods, Factor analysis, and Network models. We concluded that
 features selected using Factor analysis and Network models were more similar to each other,
 with Supervised methods selecting a more different set of features.
+
+Table of Contents
+
+- [Introduction](#introduction)
+- [Methods](#Methods)
+- [Results](#Results)
+- [Limitations](#Limitations)
+- [Future Prospects](#Future Prospects)
+- [References](#References)
 
 
