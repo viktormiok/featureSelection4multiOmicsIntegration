@@ -1,4 +1,5 @@
 # featureSelection4multiOmicsIntegration
+
 **Feature Selection for Multi-Omics Data Integration**, the repository presents a statistical workflow for feature selection in multi-omics datasets. The workflow is demonstrated using adrenocortical carcinoma (ACC) genomics data, integrating eight different methods from three categories: **supervised methods, factor analysis, and network models**. The aim is to identify biologically relevant features across multiple omics layers, facilitating a holistic understanding of complex biological processes.
 
 # Abstract 
@@ -15,7 +16,7 @@ with Supervised methods selecting a more different set of features.
 # Table of Contents
 
 - [Introduction](#introduction)
-- [Methods](#Methods)
+- [Methods](#methods)
 - [Results](#Results)
 - [Limitations](#Limitations)
 - [Future Prospects](#Future_Prospects)
@@ -24,3 +25,12 @@ with Supervised methods selecting a more different set of features.
 # Introduction
 
 Multi-omics data combine information from various biomolecular categories (e.g., genomics, proteomics, metabolomics) collected from the same biological samples. Integrated analysis of such data enables a holistic view of biological processes, with applications in disease research and nutrition science. This thesis develops and demonstrates a statistical workflow for feature selection in multi-omics data, using ACC cohort data as a case study [Zhuang_202...ter thesis | PDF].
+
+# Methods
+Eight feature selection techniques are implemented, grouped into three categories:
+
+- Supervised Methods: Penalised regression (lasso, elastic net), group-adaptive penalised regression (Squeezy, Xtune), and Globaltest.
+Factor Analysis: FABIA, robust FABIA ensemble (Superbiclust), Multiple Factor Analysis (MFA), Multi-Omics Factor Analysis (MOFA).
+
+- Network Models: Gaussian Graphical Models (GGM, via rags2ridges).
+All methods are applied to high-dimensional ACC data, including RNA sequencing, microRNA sequencing, proteomics, and mutation data. Data processing steps include standardisation, log/square-root transformation, and harmonisation of variable names. [Zhuang_202...ter thesis | PDF]
