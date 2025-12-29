@@ -29,8 +29,10 @@ Multi-omics data combine information from various biomolecular categories (e.g.,
 # Methods
 Eight feature selection techniques are implemented, grouped into three categories:
 
-- Supervised Methods: Penalised regression (lasso, elastic net), group-adaptive penalised regression (Squeezy, Xtune), and Globaltest.
-Factor Analysis: FABIA, robust FABIA ensemble (Superbiclust), Multiple Factor Analysis (MFA), Multi-Omics Factor Analysis (MOFA).
+- **Supervised Methods:** Penalised regression (lasso, elastic net), group-adaptive penalised regression (Squeezy, Xtune), and Globaltest.
 
-- Network Models: Gaussian Graphical Models (GGM, via rags2ridges).
+- **Factor Analysis:** FABIA, robust FABIA ensemble (Superbiclust), Multiple Factor Analysis (MFA), Multi-Omics Factor Analysis (MOFA).
+
+- **Network Models:** Gaussian Graphical Models (GGM, via rags2ridges).
+  
 All methods are applied to high-dimensional ACC data, including RNA sequencing, microRNA sequencing, proteomics, and mutation data. Data processing steps include standardisation, log/square-root transformation, and harmonisation of variable names. [Zhuang_202...ter thesis | PDF]
