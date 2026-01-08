@@ -39,7 +39,10 @@ All methods are applied to high-dimensional ACC data, including RNA sequencing, 
 
 # Results
 
-Supervised Methods: Penalised regression models (Glmnet) and Globaltest identified features associated with clinical outcomes. Group-adaptive methods (Squeezy, Xtune) showed limited benefit over standard penalised regression.
-Factor Analysis: FABIA and MOFA revealed latent structures and biclusters/factors, with robust ensemble methods improving stability. MFA highlighted major sources of variance across omics layers.
-Network Models: GGM visualised relationships and communities among features, identifying hubs and highly connected variables.
-Pathway Analysis: Gene Ontology (GO) profiling was performed for selected features, using clusterProfiler and multiMiR. [Zhuang_202...ter thesis | PDF]
+**Supervised Methods:** Penalised regression models (Glmnet) and Globaltest identified features associated with clinical outcomes. Group-adaptive methods (Squeezy, Xtune) showed limited benefit over standard penalised regression.
+
+**Factor Analysis:** FABIA and MOFA revealed latent structures and biclusters/factors, with robust ensemble methods improving stability. MFA highlighted major sources of variance across omics layers.
+
+**Network Models:** GGM visualised relationships and communities among features, identifying hubs and highly connected variables.
+
+**Pathway Analysis:** Gene Ontology (GO) profiling was performed for selected features, using clusterProfiler and multiMiR. [Zhuang_202...ter thesis | PDF]
