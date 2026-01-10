@@ -46,3 +46,7 @@ All methods are applied to high-dimensional ACC data, including RNA sequencing, 
 **Network Models:** GGM visualised relationships and communities among features, identifying hubs and highly connected variables.
 
 **Pathway Analysis:** Gene Ontology (GO) profiling was performed for selected features, using clusterProfiler and multiMiR. [Zhuang_202...ter thesis | PDF]
+
+# Discussion
+
+The thesis compares the overlap and differences in selected features across methods. Supervised and unsupervised approaches often select distinct sets of features, with multi-omics-aware methods providing more balanced selections across datasets. The workflow demonstrates the importance of method choice and external information in multi-omics feature selection. [Zhuang_202...ter thesis | PDF]
