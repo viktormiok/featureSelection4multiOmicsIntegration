@@ -17,7 +17,8 @@ with Supervised methods selecting a more different set of features.
 
 - [Introduction](#introduction)
 - [Methods](#methods)
-- [Results](#Results)
+- [Results](#results)
+- [Discussion](#discussion)
 - [Limitations](#Limitations)
 - [Future Prospects](#Future_Prospects)
 - [References](#References)
