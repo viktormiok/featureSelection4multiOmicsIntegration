@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/language-R_and_Python-orange.svg) ![version](https://img.shields.io/badge/GiHub_version-1.1.0-519dd9) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/viktormiok/AstrocytesHeterogenityARC) ![GitHub issues](https://img.shields.io/github/issues/viktormiok/AstrocytesHeterogenityARC)
+
 # featureSelection4multiOmicsIntegration
 
 **Feature Selection for Multi-Omics Data Integration**, the repository presents a statistical workflow for feature selection in multi-omics datasets. The workflow is demonstrated using adrenocortical carcinoma (ACC) genomics data, integrating eight different methods from three categories: **supervised methods, factor analysis, and network models**. The aim is to identify biologically relevant features across multiple omics layers, facilitating a holistic understanding of complex biological processes.
