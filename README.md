@@ -52,4 +52,4 @@ All methods are applied to high-dimensional ACC data, including RNA sequencing, 
 
 # Discussion
 
-The thesis compares the overlap and differences in selected features across methods. Supervised and unsupervised approaches often select distinct sets of features, with multi-omics-aware methods providing more balanced selections across datasets. The workflow demonstrates the importance of method choice and external information in multi-omics feature selection. [Zhuang_202...ter thesis | PDF]
+The thesis evaluates how different methods converge or diverge in the features they select. Supervised and unsupervised approaches tend to identify largely non‑overlapping feature sets, whereas multi‑omics‑aware methods yield a more balanced and consistently distributed selection across datasets. The workflow demonstrates the importance of method choice and external information in multi-omics feature selection. [Zhuang_202...ter thesis | PDF]
